@@ -1,0 +1,88 @@
+at 2:08:00--->RAPIDapi extension installed to check routes
+at 2:15:50---> how to connect frontend and backend
+common is the folder containing api fetch
+at 2:36:11 TO 2:37:38--->creating role inside common
+at 2:46:03 TO 3:01:48--->introduction of "json web token" and "cookies parser" for login to store cookies
+to move from one page to other after completion of any work-->useNavigate hook is used
+how to update the image in profile icon on homepage after login-->3:03:53 to 3:29:57  basically designing userDetails
+setting up Redux 3:29:59 to 3:41:09      -->created "store folder in src directory
+-->logout controller 3:42:00 to 3:53:17
+   ## at the time of logout we will clear the stored cookies
+-->clicking the section jo profile icon pe click krne pe khulega and designing panel:53:40 to 
+    ##use of class group(tailwindcss)
+    ##adminpanel is applicable for the desktop version in this project ,not mobile version
+    ##lets create a navigation in adminpanel which will contain different details
+    ##creating allUsers page
+    ##installation of "moment" in fronted parrt 4:47:16--check out its documentation
+    ##creation of pop menu jo show hoga jb hum edit button pe click krenge,
+      this functionality is inside "changeRole.js" 
+      at 5:36:48 to 5:39:19-->something important
+   ##allUsers finished off at 5:41:00
+   ##let us begin with "allProducts" page
+     -->at 6:07:30-- something important regarding scroll
+     -->at 6:15:00-- file upload procedure
+     -->at 6:20:38--6:38:11 cloudinary
+     -->6:38:32 onwards to 6:49:52-->designing "DisplayImage.js"-->this component will enlarge the view of uploaded image in upload product section;when anybody will click on the image
+     -->6:49:52 onwards  designing the delete option taki kuch wrong image upload kr diye to usko delete kr sken
+     -->7:08:30 designing the controller and model to upload the product into database,but this access will be limited to admin only
+            ##7:15:16-->setting the permission to admin only
+            ##7:28:27-->whatever product admin have added, we want to show it on our allproduct page,
+              let's design controller for that
+     -->7:39:14 designing the card which shows each product uploaded by admin
+            ##7:42:58-->adding functionality to edit button so that when admin click on it it directs to a form containing current database  //name pf component--> "{AdminEditProduct.js}"
+----NOW WE ARE DONE WITH THE ADMIN SECTION FUNCTIONALITIES i.e upload product edit user,etc
+
+let's upload all the product image into cloudinary-->8:06:46
+
+//now our product part is done 
+----------------------------------------------------############----------------
+let's display all product in homepage [8:22:01]
+     folder structure at 8:23:00
+     Categorylist component
+     adding responsivness(8:47:03)
+
+//designing banner product SECTION
+--->something important at 9:38:00
+
+//designing cart section 9:39:58
+at 9:49:01--> loading,setLoading-->important+confusing
+
+-->10:42:51 onwards upto 10:57:28 --->something important(how to dipaly loading in every card component while data is being fetched from api)
+
+//designing the click handler for the case when we click on the particular product card in homepage
+   component name -- productDetails.js
+
+   11:36:48-->11:38:40  a very very good efect designing
+   12:07:14-->12:34:00  creating zooming effect
+
+upto 12:41:49-->click handler desigining mentioned above finished
+*****************************************************************************
+
+/* ADD TO CART section*/-->12:41:49 onwards
+
+
+/* 14:38:12 onwards-->designing the delete icons*/
+add to cart section finished at 15:04:03
+
+
+*********************************************************************************************************
+/* Designing search section */
+15:02:00 onwards to 15:49:38
+
+**********************************************************************************************************
+adding filtering functionality to icons present on homepage 16:32:00 onwards
+i.e CategoryProduct.js-->  components
+
+
+************************************************************************
+adding functionality to sort by function
+16:53:00 onwards upto 16:58:00
+
+**************************************************************************
+
+17:01:06 onwards --->designing add to cart button 
+17:10:15 onwards ---> designing buy button  upto 17:!2:49
+
+
+****************************************************************
+17:12:49-->debugging some loading errors
